@@ -10,9 +10,9 @@ end
 board = [" "," "," "," "," "," "," "," "," "]
 
 def input_to_index(user_input)
-new_user_input = user_input.to_i - 1
+#new_user_input = user_input.to_i - 1
 #new_user_input -= 1
-return new_user_input
+return user_input.to_i - 1
 end
 
 def move(board, index, character = "X")
